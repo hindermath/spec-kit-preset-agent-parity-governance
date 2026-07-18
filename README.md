@@ -51,7 +51,7 @@ of the contributor contract.*
 - agentenneutrales Modell-Routing nach Arbeitstyp
 - Regeln für atomare Änderungen, Template-Synchronisierung und dokumentierte
   Abweichungen
-- auditfähige Spec-Kit-Run-Evidence-Felder für Anwendbarkeit, N/A-Begründung,
+- auditfähige Spec-Kit-Run-Evidence-Felder für Anwendbarkeit, `N/A`-Begründung,
   Reviewer, Evidence-Pfad, Restrisiko und Follow-up
 
 *The preset provides addenda for the main Spec-Kit artifacts and agent
@@ -73,14 +73,14 @@ provider-administration authority.*
 
 ## Voraussetzungen / Prerequisites
 
-1. kompatible GitHub Spec Kit CLI;
+1. kompatible GitHub Spec-Kit CLI;
 2. gültige Spec-Kit-Integration im Ziel-Repository;
 3. deklarierte Liste gepflegter Agent-Flächen;
 4. versionierte Constitution und Agent-Guidance;
 5. ein Teamverständnis, welche Regeln gemeinsam und welche absichtlich
    agentenspezifisch sind.
 
-*Before installation, use a compatible GitHub Spec Kit CLI, a valid Spec-Kit
+*Before installation, use a compatible GitHub Spec-Kit CLI, a valid Spec-Kit
 integration, a declared list of maintained agent surfaces, versioned
 constitution and agent guidance, and a team understanding of which rules are
 shared and which are intentionally agent-specific.*
@@ -135,10 +135,16 @@ can be synchronized across all maintained agent surfaces.*
 - Keine Provider-Modellnamen in `spec.md`, `plan.md`, `tasks.md` oder
   Feature-Spezifikationen.
 
-Common surfaces include `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`,
+Typische Flächen sind `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`,
+`.github/copilot-instructions.md`, `.github/agents/copilot-instructions.md`,
+`.cursorrules`, `.windsurfrules`, `JUNIE.md` oder andere projektspezifische
+Instruktionsdateien. Das Preset verlangt keinen bestimmten Anbieter- oder
+Agentenmix.
+
+*Common surfaces include `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`,
 `.github/copilot-instructions.md`, `.github/agents/copilot-instructions.md`,
 `.cursorrules`, `.windsurfrules`, `JUNIE.md`, or other project-specific
-instruction files. The preset does not require a specific vendor or agent mix.
+instruction files. The preset does not require a specific vendor or agent mix.*
 
 ## Modell-Routing / Model Routing
 
@@ -170,8 +176,11 @@ these categories to its currently best available models.*
 
 - `agent-parity-checklist-template`
 
-Default evidence location: project-defined; commonly `docs/agent-governance/`
-or alongside the changed guidance files.
+Standard-Evidence-Ort: projektdefiniert, häufig `docs/agent-governance/` oder
+neben den geänderten Guidance-Dateien.
+
+*Default evidence location: project-defined; commonly
+`docs/agent-governance/` or alongside the changed guidance files.*
 
 ## Prüfung / Verification
 
@@ -232,12 +241,12 @@ Abweichungen ausdrücklich in derselben Änderung.
 ## Version 0.3.0 / Version 0.3.0
 
 `v0.3.0` ergänzt auditfähige Spec-Kit-Run-Evidence-Felder, damit generierte
-Markdown-Dokumente und Checklisten Anwendbarkeit, N/A-Begründung, Reviewer,
+Markdown-Dokumente und Checklisten Anwendbarkeit, `N/A`-Begründung, Reviewer,
 Evidence-Pfad, Restrisiko und Follow-up pro standardsrelevantem Spec-Kit-Lauf
 aufzeichnen können.
 
 *`v0.3.0` adds audit-ready Spec-Kit run evidence fields so generated Markdown
-documents and checklists can record applicability, N/A rationale, reviewer,
+documents and checklists can record applicability, `N/A` rationale, reviewer,
 evidence path, residual risk, and follow-up per standards-relevant Spec-Kit
 run.*
 
