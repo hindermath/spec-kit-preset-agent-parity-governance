@@ -79,6 +79,9 @@ When not to use:
 - Installation does not grant repository, remote, merge, bypass, deployment,
   cancellation, secret, or provider-administration authority.
 
-Release notes:
+## Release Notes
 
-- `v0.3.0` adds audit-ready Spec-Kit run evidence fields so generated Markdown documents and checklists can record applicability, N/A rationale, reviewer, evidence path, residual risk, and follow-up per standards-relevant Spec-Kit run.
+- `v0.3.0` adds audit-ready Spec-Kit run evidence fields so generated Markdown
+  documents and checklists can record applicability, N/A rationale, reviewer,
+  evidence path, residual risk, and follow-up per standards-relevant Spec-Kit
+  run.
