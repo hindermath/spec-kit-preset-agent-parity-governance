@@ -1,16 +1,32 @@
 # Agent Parity Governance Preset
 
 Version: `0.3.0`
-Requires: `spec-kit >= 0.8.0` (uses the `wrap` and `append` composition
-strategies introduced in 0.8.x).
+Status: published, standard governance preset
+Priority: `60`
+Requires: Spec Kit `>=0.8.0` (uses the `wrap` and `append` composition
+strategies introduced in 0.8.x)
 
-Purpose:
+## Purpose / Zweck
 
 - prevent silent process drift between AI-agent guidance files
 - enforce that shared rules land atomically across the project's
   declared AI-agent guidance surfaces
 - keep Spec-Kit model-routing guidance agent-neutral and out of
   reproducible feature artifacts
+
+## Install
+
+```bash
+specify preset add \
+  --from https://github.com/hindermath/spec-kit-preset-agent-parity-governance/archive/refs/tags/v0.3.0.zip \
+  --priority 60
+specify preset info agent-parity-governance
+```
+
+```bash
+specify preset add --dev /path/to/agent-parity-governance --priority 60
+specify preset info agent-parity-governance
+```
 
 Primary source chapter from `home-baseline` constitution:
 
@@ -54,6 +70,14 @@ When not to use:
 
 - projects with only one agent guidance file and no plans to add another
 - one-off prototypes without long-term agent contributors
+
+## Safety / Grenzen
+
+- Model selection is routing guidance, not a feature requirement.
+- Do not write provider-specific model names into `spec.md`, `plan.md`,
+  `tasks.md`, or feature specifications.
+- Installation does not grant repository, remote, merge, bypass, deployment,
+  cancellation, secret, or provider-administration authority.
 
 Release notes:
 
