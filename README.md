@@ -1,6 +1,6 @@
 # Agent Parity Governance Preset
 
-Version: `0.3.0`
+Version: `0.4.0`
 Status: published, standard governance preset
 Priority: `60`
 Requires: Spec-Kit `>=0.8.0` (uses the `wrap` and `append` composition
@@ -91,7 +91,7 @@ shared and which are intentionally agent-specific.*
 
 ```bash
 specify preset add \
-  --from https://github.com/hindermath/spec-kit-preset-agent-parity-governance/archive/refs/tags/v0.3.0.zip \
+  --from https://github.com/hindermath/spec-kit-preset-agent-parity-governance/archive/refs/tags/v0.4.0.zip \
   --priority 60
 specify preset info agent-parity-governance
 ```
@@ -237,6 +237,16 @@ Abweichungen ausdrücklich in derselben Änderung.
   `tasks.md`, or feature specifications.
 - Installation does not grant repository, remote, merge, bypass, deployment,
   cancellation, secret, or provider-administration authority.
+
+## Version 0.4.0 / Version 0.4.0
+
+`v0.4.0` ergänzt Flottenabschluss-Nachweise über alle Repository-Ebenen,
+Pfadabgrenzung vor Staging, Parität generierter Agentenbefehle und
+geheimnisfreie Runner-/Statusmetadaten mit Kampagnen-Fallback.
+
+*`v0.4.0` adds fleet-completion evidence across repository levels, path
+separation before staging, generated-agent command parity, and secret-free
+runner/status metadata with campaign fallback.*
 
 ## Version 0.3.0 / Version 0.3.0
 
