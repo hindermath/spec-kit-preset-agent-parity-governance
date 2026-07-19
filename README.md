@@ -240,8 +240,8 @@ Abweichungen ausdrücklich in derselben Änderung.
 
 ## Version 0.4.0 / Version 0.4.0
 
-`v0.4.0` ergaenzt Flottenabschluss-Nachweise ueber alle Repository-Ebenen,
-Pfadabgrenzung vor Staging, Paritaet generierter Agentenbefehle und
+`v0.4.0` ergänzt Flottenabschluss-Nachweise über alle Repository-Ebenen,
+Pfadabgrenzung vor Staging, Parität generierter Agentenbefehle und
 geheimnisfreie Runner-/Statusmetadaten mit Kampagnen-Fallback.
 
 *`v0.4.0` adds fleet-completion evidence across repository levels, path
