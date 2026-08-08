@@ -62,7 +62,7 @@ feature artifacts.
 - A non-parallel autonomous run MUST change models only at a validated phase
   boundary through a new process and SHA-256-bound handoff.
 - Explicit local runner profiles MUST fail closed. Missing profile, model,
-  effort, or successful preflight MUST result in `Blocked` without automatic
+  reasoning effort, or successful preflight MUST result in `Blocked` without automatic
   fallback.
 
 ### Atomic change discipline
